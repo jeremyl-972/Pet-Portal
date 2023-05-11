@@ -1,0 +1,68 @@
+.Home{
+    margin-bottom: 30px;
+}
+
+.appeal{
+    padding: 30px 15px;
+    color: #333333;
+}
+.welcome-container{
+    display: flex;
+    flex-direction: column; 
+    max-width: 400px;
+    font-weight: 500;
+    color: #fff;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+.welcome-header{
+    font-size: 30px;
+}
+.welcome-text{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 480px){
+    .welcome-container{
+        height: 280px;
+    }
+    .welcome-header{
+        font-size: 14px;
+    }
+    .welcome-text{
+        font-size: 10px;
+    }
+    .appeal{
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .welcome-container{
+        height: 300px;
+    }
+    .welcome-header{
+        font-size: 17px;
+    }
+    .welcome-text{
+        font-size: 12px;
+    }
+    .appeal{
+        font-size: 26px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .welcome-container{
+        height: 395px;
+        max-width: 500px
+    }
+    .welcome-header{
+        font-size: 22px;
+    }
+    .welcome-text{
+        font-size: 15px;
+    }
+    .appeal{
+        font-size: 30px;
+    }
+}

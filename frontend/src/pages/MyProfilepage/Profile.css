@@ -1,0 +1,15 @@
+.profile-settings-container{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.profile-settings-title{
+    padding: 15px 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+.profile-settings-container span{
+    padding-left: 5px;
+    font-size: 13px;
+    font-weight: bold;
+}

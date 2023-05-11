@@ -1,0 +1,13 @@
+.Box {
+    /* The image used */
+    /* Full height */
+    height: 50%;
+      
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      
+    padding: 20px;
+    border-top: 1px solid #ddd;
+}

@@ -1,0 +1,18 @@
+.admin-about-pet-container{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.add-edit-title{
+    padding: 15px 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+.admin-about-pet-container span{
+    padding-left: 5px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.pet-img{
+    margin-left: 2rem;
+}

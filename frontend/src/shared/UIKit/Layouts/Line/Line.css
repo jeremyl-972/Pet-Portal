@@ -1,0 +1,15 @@
+.Line {
+    display: flex;
+    gap: 10px;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+.Line[justify="between"] {
+    justify-content: space-between;
+}
+.Line.Rows{
+    flex-direction: column;
+}

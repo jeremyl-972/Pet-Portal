@@ -1,0 +1,21 @@
+.Btn {
+    border: none;
+    border-radius: 12.5px;
+    font-weight: 300;
+    background-color: #333333;
+    letter-spacing: 0.065em;
+    font-size: 13px;
+    color: rgb(206, 203, 203);
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+.Btn:hover {
+    filter: brightness(150%);
+    cursor: pointer;
+}
+.Btn:disabled{
+    opacity: 0.6;
+    cursor: not-allowed;
+}

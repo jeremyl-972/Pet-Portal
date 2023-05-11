@@ -1,0 +1,34 @@
+*{
+  box-sizing: border-box;
+}
+
+html, body, #root, .App {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-weight: 400;
+  letter-spacing: 0.065em;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  color: #1d1d1f;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+.Home .Center {
+  height: 100%;
+}
+
+textarea { resize: none; }
+
+
+
+
+
+
+

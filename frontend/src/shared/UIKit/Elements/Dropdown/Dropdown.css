@@ -1,0 +1,68 @@
+.Dropdown {
+    display: flex;
+    position: relative;
+}
+
+.Dropdown > .trigger {
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+    padding: 5px 10px;
+    border: 2px solid #333333;
+}
+
+.Dropdown > .trigger:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.Dropdown > .trigger:active {
+    background-color: #f9f9f9;
+}
+.selector-text{
+    font-size: 11px;
+}
+.Dropdown > .list {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    position: absolute;
+    z-index: 9;
+    width: 84px;
+}
+
+.Dropdown > .list > div {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 11px;
+}
+
+.Dropdown > .list > div.selected {
+    background-color: lightgray;
+}
+
+.Dropdown > .list > div:hover:not(.selected) {
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+.Dropdown > .list > div:active {
+    background-color: #f1f1f1;
+}
+@media screen and (max-width: 480px){
+    .selector-text{
+        font-size: 8px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .selector-text{
+        font-size: 9px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .selector-text{
+        font-size: 11px;
+    }
+}
